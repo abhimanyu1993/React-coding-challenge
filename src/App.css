@@ -1,0 +1,135 @@
+.magazine__header{
+	background: rgba(0, 0, 0, 0.8)
+}
+.main__heading h2{
+	color: #fff;
+	font-size: 35px;
+	opacity: 0.9;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin: 0;
+	padding: 30px 0;
+}
+.sub__heading h3 {
+	color: #777;
+	font-size: 35px;
+	letter-spacing: 1px;
+	border-bottom: 2px solid #999;
+	margin: 0;
+	padding: 30px 0;
+}
+.list__item {
+	border-bottom: 2px solid #999;
+	padding: 30px 0;
+}
+.list__item  h4{
+	color: #666;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+.list__item  p{
+	color: #888;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.button__name {
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+	opacity: 0.9;
+	border-radius: 0;
+    padding: 12px 0px;
+    text-transform: capitalize;
+    width: 146px;
+}
+.modal__title {
+	color: #666;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.modal-content {
+	border-radius: 0;
+}
+.modal-header,
+.modal-footer{
+	border-bottom: 0;
+	border-top: 0;
+}
+.custom__inputs {
+	color: #666;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 35px;
+    border-radius: 0;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.label {
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #666;
+	padding-right: 25px;
+	display: inline-block;
+	width: 110px;
+	display: inline-block;
+}
+.label:empty {
+	display: inline-block;
+}
+.modal-dialog {
+	height: 100%;
+	display: block;
+	margin: auto;
+}
+.modal-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 25%;
+	width: 80%;
+}
+.modal-footer {
+	padding: 20px 0;
+	text-align: left;
+	padding-bottom: 0;
+}
+.modal-footer button {
+	width: 50%;
+	display: inline-block;
+	margin: 0;
+	border-radius: 0;
+	padding: 15px 20px;
+	color: #fff;
+	border: 0;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.button__cancel {
+	background-color: rgb(5, 50, 89);
+}
+.button__save {
+	background-color: #0073d0;
+	margin-left: 0 !important;
+}
+.button__cancel:active,
+.button__cancel:focus,
+.button__cancel:hover {
+	color: #fff;
+	background-color: rgb(7, 70, 123) !important;
+	box-shadow: none !important;
+	outline: none;
+}
+.button__save:active,
+.button__save:focus,
+.button__save:hover {
+	color: #fff;
+	background-color: #1770b7 !important;
+	box-shadow: none !important;
+	outline: none;
+}
